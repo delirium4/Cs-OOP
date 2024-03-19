@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Lab5</RootNamespace>
+    </PropertyGroup>
+
+
+
+
+
+
+
+
+
+
+
+
+    <ItemGroup>
+      <PackageReference Include="Itmo.Dev.Platform.Postgres" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
+    </ItemGroup>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <ItemGroup>
+      <ProjectReference Include="..\BLL\BLL.csproj" />
+      <ProjectReference Include="..\DAL\DAL.csproj" />
+    </ItemGroup>
+
+
+
+
+
+
+
+
+
+
+
+
+</Project>
